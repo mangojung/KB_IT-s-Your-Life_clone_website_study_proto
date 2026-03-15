@@ -1,0 +1,162 @@
+<main class="main-content">
+
+  <!-- 상단 빈 박스 대신 환율정보 -->
+  <section class="exchange-info">
+    <h3>환율정보</h3>
+
+    <div class="exchange-boxes">
+      <div class="exchange-card">
+        <strong>현찰 사실때 / 파실때</strong>
+        <p>USD 1,525.23 / 1,472.77</p>
+        <p>JPY 955.30 / 922.44</p>
+        <p>EUR 1,746.51 / 1,678.71</p>
+      </div>
+
+      <div class="exchange-card">
+        <strong>송금 보낼때 / 받을때</strong>
+        <p>USD 1,513.50 / 1,484.50</p>
+        <p>JPY 947.97 / 929.77</p>
+        <p>EUR 1,729.73 / 1,695.49</p>
+      </div>
+    </div>
+
+    <p class="exchange-date">2026.03.13 04:49:38 1079회차 기준</p>
+  </section>
+
+  <div class="breadcrumb">
+    개인뱅킹 &gt; 외환 &gt; 환율 &gt; 환율조회 &gt; 전체통화
+  </div>
+
+  <section class="page-title-area">
+    <h2>환율조회</h2>
+  </section>
+
+  <div class="tab-menu">
+    <button class="tab active">전체통화</button>
+    <button class="tab">통화별</button>
+    <button class="tab">공항환율</button>
+  </div>
+
+  <!-- 이용안내 -->
+  <section class="guide-box">
+    <div class="guide-title">
+      <span>이용안내 및 유의사항</span>
+      <span>⌄</span>
+    </div>
+    <ul>
+      <li>은행영업일이 아닌 경우 또는 환율정보가 등록되기 전인 경우 최근 영업일의 환율 정보가 표시됩니다.</li>
+      <li>최종회차는 조회 시점에 따라 실시간으로 변경될 수 있습니다.</li>
+      <li>중국 위안화(CNY)는 CNH 기준으로 고시될 수 있습니다.</li>
+    </ul>
+  </section>
+
+  <!-- 조회 조건 -->
+  <section class="search-box">
+    <div class="search-row">
+      <div class="search-label">조회일</div>
+      <div class="search-content">
+        <input type="text" class="date-input" value="20260313" />
+        <button type="button" class="small-btn">오늘</button>
+        <button type="button" class="small-btn">전일</button>
+        <button type="button" class="small-btn">다음일</button>
+      </div>
+    </div>
+
+    <div class="search-row">
+      <div class="search-label">회차</div>
+      <div class="search-content">
+        <div class="radio-group">
+          <label><input type="radio" name="round" checked /> 최종</label>
+          <label><input type="radio" name="round" /> 최초</label>
+          <label><input type="radio" name="round" /> 특정회차</label>
+        </div>
+
+        <select class="round-select">
+          <option>1079회차</option>
+          <option>1078회차</option>
+          <option>1077회차</option>
+        </select>
+
+        <p class="search-notice">조회시 환율이 변동될 수 있습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="search-action">
+    <button type="button" class="search-btn">조회</button>
+  </div>
+
+  <!-- 등록일/조회일시 -->
+  <table class="meta-table">
+    <thead>
+      <tr>
+        <th>환율등록일시(회차)</th>
+        <th>조회일시</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2026.03.13 04:49:38 (1079회차)</td>
+        <td>2026.03.15 22:37:14</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 메인 환율 테이블 -->
+  <table class="exchange-table">
+    <thead>
+      <tr>
+        <th rowspan="2">통화명</th>
+        <th rowspan="2">매매기준율</th>
+        <th colspan="2">송금(전신환)</th>
+        <th colspan="2">현찰</th>
+        <th rowspan="2">환율변동</th>
+      </tr>
+      <tr>
+        <th>보낼때</th>
+        <th>받을때</th>
+        <th>사실때</th>
+        <th>파실때</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>미국 USD</td>
+        <td>1,499.00</td>
+        <td>1,513.50</td>
+        <td>1,484.50</td>
+        <td>1,525.23</td>
+        <td>1,472.77</td>
+        <td>▲ 2.50</td>
+      </tr>
+      <tr>
+        <td>일본 JPY</td>
+        <td>938.87</td>
+        <td>947.97</td>
+        <td>929.77</td>
+        <td>955.30</td>
+        <td>922.44</td>
+        <td>▼ 1.20</td>
+      </tr>
+      <tr>
+        <td>유럽연합 EUR</td>
+        <td>1,712.61</td>
+        <td>1,729.73</td>
+        <td>1,695.49</td>
+        <td>1,746.51</td>
+        <td>1,678.71</td>
+        <td>▲ 3.10</td>
+      </tr>
+      <tr>
+        <td>중국 CNY</td>
+        <td>205.00</td>
+        <td>208.90</td>
+        <td>201.20</td>
+        <td>210.50</td>
+        <td>199.80</td>
+        <td>-</td>
+      </tr>
+    </tbody>
+  </table>
+
+</main>
