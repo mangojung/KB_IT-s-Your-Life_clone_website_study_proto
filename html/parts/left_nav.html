@@ -2,23 +2,25 @@
   <h2>외환</h2>
 
   <div class="nav-group-title">환율</div>
+
   <ul class="menu-box">
     <li><a href="#">계좌조회</a></li>
-    <li><a href="#" class="active">환율조회</a></li>
-    <li style="z-index: 0"><a href="#">자기앞수표조회</a></li>
-    <li style="z-index: 0"><a href="#">조회계좌 등록/삭제</a></li>
+
+    <li class="is-current">
+      <a href="#" class="depth1">
+        <span>환율조회</span>
+        <span class="nav-arrow"></span>
+      </a>
+
+      <ul class="sub-menu">
+        <li><a href="#">자기앞수표조회</a></li>
+        <li><a href="#">조회계좌 등록/삭제</a></li>
+      </ul>
+    </li>
   </ul>
-  <button type="submit" id="certification_button">
+
+  <button type="button" id="certification_button">
     <img src="../source/KB.png" alt="kb icon" />
-    인증센터
+    <span>인증센터</span>
   </button>
-  <!-- <ul class="simple-links">
-    <li><a href="#">환전</a></li>
-    <li><a href="#">해외송금보내기</a></li>
-    <li><a href="#">해외송금받기</a></li>
-    <li><a href="#">국내외화이체/외화예금입출금</a></li>
-    <li><a href="#">KB Star FX(외환매매플랫폼)</a></li>
-    <li><a href="#">외화수표</a></li>
-    <li><a href="#">해외투자</a></li>
-  </ul> -->
 </aside>
