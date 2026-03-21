@@ -1,48 +1,47 @@
-KB_IT's Your Life 7기를 진행하면서 개인 공부용으로 클론한 웹사이트 관련 코드 
-
-# File Tree: kb_site_clone_front_pt
-
-**Generated:** 3/15/2026, 10:28:52 PM
-**Root Path:** `c:\KB_ITs_Your_Life\Study\kb_site_clone_front_pt`
+KB_IT's Your Life 7기를 진행하면서 개인 공부용으로 클론한 웹사이트 관련 코드
 
 ```
-├── 📁 css
-│   └── 🎨 style_kb_exchange_rate.css
-├── 📁 html
-│   ├── 📁 parts
-│   │   ├── 🌐 footer.html
-│   │   ├── 🌐 header.html
-│   │   ├── 🌐 left_nav.html
-│   │   ├── 🌐 main_content.html
-│   │   └── 🌐 right_nav.html
-│   └── 🌐 index_ExchangeRate.html
-├── 📁 js
-│   └── 📄 js_exchange_rate.js
-└── 📄 README
-```
+kb국민은행 -
+환율조회 페이지 1일차
 
-
-
-kb 국민은행 환율조회 탭 clone coding
-https://obank.kbstar.com/quics?page=C101423
-페이지 구조
-    1. 상단 header
-    2. 좌측 내비게이션
-    3. 메인 콘텐츠 영역
-    4. 우측 보조 내비게이션/퀵 메뉴 느낌 영역
-    5. 하단 footer
-
-
-------------------------------------------------------------------------------------
-kb국민은행 - 환율조회 페이지 1일차
 1. 구조 짜기
 2. 시멘틱 태그로 헤더, 네이게이터(좌/우), 메인 컨텐츠, 푸터 분할해서 골격 제작
 3. 클론사이트하고 비슷한 느낌의 css 스타일 적용(전부 ai로 작성됨 - 디테일한 부분 추후 수정 필요)
 
-to do
+환율조회 페이지 2일차
+
 1. 헤더 부분 요소들 위치 및 style 변경
-2. 우측 네이게이션(스크롤 따라오는) 제작
-3. 환율조회 - 전체통화/통화별/공황환율 세부 텝 제작
-3-1. 현재 통화별 환율 api 불러오기
+2. 우측 네이게이션(스크롤 따라오는) 제작 -> 아이콘 이미지는 생략함
+
+To do
+
+1. 환율조회 - 전체통화/통화별/공황환율 세부 텝 제작
+   1-1. 현재 통화별 환율 api 불러오기
 
 
+```
+
+├── 📁 css
+│ └── 🎨 style_kb_exchange_rate.css
+├── 📁 html
+│ ├── 📁 parts
+│ │ ├── 🌐 footer.html
+│ │ ├── 🌐 header.html
+│ │ ├── 🌐 left_nav.html
+│ │ ├── 🌐 main_content.html
+│ │ └── 🌐 right_nav.html
+│ └── 🌐 index_ExchangeRate.html
+├── 📁 js
+│ └── 📄 js_exchange_rate.js
+└── 📄 README
+
+```
+
+kb 국민은행 환율조회 탭 clone coding (reference site url)
+https://obank.kbstar.com/quics?page=C101423
+페이지 구조 1. 상단 header 2. 좌측 내비게이션 3. 메인 콘텐츠 영역 4. 우측 보조 내비게이션/퀵 메뉴 느낌 영역 5. 하단 footer
+
+---
+
+
+```
